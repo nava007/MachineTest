@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.yahoo.qa.testcases.YahooSignUpPageTest">
+        <methods>
+          <include name="TC_YAH_007_mobile_invalid"/>
+          <include name="TC_YAH_003_mail_special_char"/>
+          <include name="TC_YAH_005_password_strength"/>
+          <include name="TC_YAH_010_bday_alphanumeric"/>
+          <include name="TC_YAH_014_registration_upto_verificationpage_test"/>
+          <include name="TC_YAH_011_mandatory_field_verify"/>
+          <include name="TC_YAH_008_mobile_strength"/>
+          <include name="TC_YAH_002_mail_strength"/>
+          <include name="TC_YAH_009_bday_futuredate"/>
+          <include name="TC_YAH_001_mail_already_used"/>
+          <include name="TC_YAH_004_mail_digits_input"/>
+          <include name="teardown"/>
+          <include name="TC_YAH_012_terms_link_verify"/>
+          <include name="setup"/>
+          <include name="TC_YAH_006_password_similar_name"/>
+          <include name="TC_YAH_013_privacy_link_verify"/>
+        </methods>
+      </class> <!-- com.yahoo.qa.testcases.YahooSignUpPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
