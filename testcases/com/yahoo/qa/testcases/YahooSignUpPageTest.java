@@ -18,7 +18,7 @@ public class YahooSignUpPageTest extends BaseClass {
 
 	YahooSignUpPage signup;
 	
-	/*This method initialize the browser and enter the particular url from properties file*/
+	/*This method initialize the browser and enter the particular url from properties file/added*/
 	@BeforeClass
 	public void setup(){
 		
